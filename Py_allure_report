@@ -1,0 +1,9 @@
+first, install allure:
+
+1 -- allure-pytest 2.6.0
+2 -- allure-python-commons 2.6.0
+
+(using pytest)
+
+1 -- pytest test_xyz.py --alluredir=path_where_you_want_to_save_reports
+2 -- allure serve report_path
